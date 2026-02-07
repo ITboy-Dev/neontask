@@ -19,11 +19,5 @@
       "src": "/(.*)",
       "dest": "frontend/$1"
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@database_url",
-    "BETTER_AUTH_SECRET": "@better_auth_secret",
-    "GOOGLE_API_KEY": "@google_api_key",
-    "OPENROUTER_API_KEY": "@openrouter_api_key"
-  }
+  ]
 }
